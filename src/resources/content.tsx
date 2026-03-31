@@ -227,7 +227,6 @@ const gallery: Gallery = {
   // Images by https://lorant.one
   // These are placeholder images, replace with your own
   images: [
-  { src: "/images/gallery/tuvi.jpg", alt: "Bản đồ Tử Vi", orientation: "721 / 1024" },
   { src: "/images/gallery/16BCC79B-C2D5-4852-8175-CB7AB30DE6DC.JPG", alt: "16BCC79B-C2D5-4852-8175-CB7AB30DE6DC.JPG", orientation: "1242 / 2208" },
   { src: "/images/gallery/1E184593-871A-42FA-B934-A9A922D6120B.JPG", alt: "1E184593-871A-42FA-B934-A9A922D6120B.JPG", orientation: "1440 / 1800" },
   { src: "/images/gallery/3254CB37-7D21-4B27-801C-94CFF7E16911.JPG", alt: "3254CB37-7D21-4B27-801C-94CFF7E16911.JPG", orientation: "1242 / 2208" },
