@@ -1,0 +1,48 @@
+
+> @once-ui-system/magic-portfolio@2.3.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 6.2s
+  Running TypeScript ...
+  Collecting page data using 9 workers ...
+⚠ Using edge runtime on a page currently disables static generation for that page
+  Generating static pages using 9 workers (0/29) ...
+  Generating static pages using 9 workers (7/29) 
+  Generating static pages using 9 workers (14/29) 
+  Generating static pages using 9 workers (21/29) 
+✓ Generating static pages using 9 workers (29/29) in 301.9ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ƒ /api/authenticate
+├ ƒ /api/check-auth
+├ ƒ /api/og/fetch
+├ ƒ /api/og/generate
+├ ƒ /api/og/proxy
+├ ƒ /api/rss
+├ ○ /blog
+├ ● /blog/[slug]
+│ ├ /blog/blog
+│ ├ /blog/components
+│ ├ /blog/content
+│ └ [+8 more paths]
+├ ○ /gallery
+├ ○ /robots.txt
+├ ○ /sitemap.xml
+├ ○ /work
+└ ● /work/[slug]
+  ├ /work/automate-design-handovers-with-a-figma-to-code-pipeline
+  ├ /work/building-once-ui-a-customizable-design-system
+  └ /work/simple-portfolio-builder
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
