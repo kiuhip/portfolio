@@ -95,6 +95,9 @@ export default function About() {
           >
             <Avatar src={person.avatar} size="xl" />
             <Row gap="8" vertical="center">
+              ♓ 19/02/2005
+            </Row>
+            <Row gap="8" vertical="center">
               <Icon onBackground="accent-weak" name="globe" />
               Hanoi, Vietnam
             </Row>
