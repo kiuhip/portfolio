@@ -215,7 +215,14 @@ export default function About() {
                   <Column key={`${experience.company}-${experience.role}-${index}`} fillWidth>
                     <Row fillWidth horizontal="between" vertical="end" marginBottom="4">
                       <Row gap="12" vertical="center">
-                        {experience.logo && <Avatar src={experience.logo} size="m" />}
+                        {experience.logo && (
+                          /* eslint-disable-next-line @next/next/no-img-element */
+                          <img 
+                            src={experience.logo} 
+                            alt={experience.company} 
+                            style={{ height: '40px', width: 'auto', maxWidth: '120px', objectFit: 'contain', borderRadius: '4px' }} 
+                          />
+                        )}
                         <Text id={experience.company} variant="heading-strong-l">
                           {experience.company}
                         </Text>
@@ -276,7 +283,14 @@ export default function About() {
                 {about.studies.institutions.map((institution, index) => (
                   <Column key={`${institution.name}-${index}`} fillWidth gap="4">
                     <Row gap="12" vertical="center" marginBottom="4">
-                      {institution.logo && <Avatar src={institution.logo} size="m" />}
+                      {institution.logo && (
+                        /* eslint-disable-next-line @next/next/no-img-element */
+                        <img 
+                          src={institution.logo} 
+                          alt={institution.name} 
+                          style={{ height: '40px', width: 'auto', maxWidth: '120px', objectFit: 'contain', borderRadius: '4px' }} 
+                        />
+                      )}
                       <Text id={institution.name} variant="heading-strong-l">
                         {institution.name}
                       </Text>
