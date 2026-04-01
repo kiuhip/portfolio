@@ -112,6 +112,7 @@ const about: About = {
     experiences: [
       {
         company: "CyRadar",
+        logo: "/images/company-logo.png",
         timeframe: "3/2026 - Present",
         role: "Cyber Security Intern",
         achievements: [
@@ -129,10 +130,12 @@ const about: About = {
     institutions: [
       {
         name: "Hanoi University of Science and Technology",
+        logo: "/images/hust.jpg",
         description: <>2023 - Now: Majoring in Computer Engineering.</>,
       },
       {
         name: "Vinh Phuc High School for the Gifted",
+        logo: "/images/cvp.png",
         description: <>2020 - 2023: Majoring in Physics class.</>,
       },
     ],
