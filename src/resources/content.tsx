@@ -136,7 +136,7 @@ const about: About = {
     institutions: [
       {
         name: "Hanoi University of Science and Technology",
-        logo: "/images/hust.jpg",
+        logo: "/images/hust.svg",
         description: <>2023 - Now: Bachelor of Computer Engineering.</>,
       },
       {
