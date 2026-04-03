@@ -242,6 +242,8 @@ const gallery: Gallery = {
     { src: "/images/gallery/3E4E9F18-8F03-4D15-AD5F-1ED680B904B0.JPG", alt: "3E4E9F18-8F03-4D15-AD5F-1ED680B904B0.JPG", orientation: "1440 / 1800" },
     { src: "/images/gallery/3S0A7861.JPEG", alt: "3S0A7861.JPEG", orientation: "5760 / 3840" },
     { src: "/images/gallery/617B76B6-0E17-4B6C-9576-9CAAC9EEBE29.JPG", alt: "617B76B6-0E17-4B6C-9576-9CAAC9EEBE29.JPG", orientation: "1242 / 2208" },
+    { src: "/images/gallery/661034160_1555975953198349_8627737746448021805_n.jpg", alt: "661034160_1555975953198349_8627737746448021805_n.jpg", orientation: "1920 / 1280" },
+    { src: "/images/gallery/662314116_1555976399864971_2753024288643190045_n.jpg", alt: "662314116_1555976399864971_2753024288643190045_n.jpg", orientation: "1920 / 1280" },
     { src: "/images/gallery/80ED15EC-50B9-4028-A3E8-3CD681000E98.JPG", alt: "80ED15EC-50B9-4028-A3E8-3CD681000E98.JPG", orientation: "1440 / 1799" },
     { src: "/images/gallery/8E6C71F9-8920-43D4-867F-741FA3068FF1.JPG", alt: "8E6C71F9-8920-43D4-867F-741FA3068FF1.JPG", orientation: "1170 / 2080" },
     { src: "/images/gallery/92FC8BCF-4860-46D3-A5AA-CDC111153D68.JPG", alt: "92FC8BCF-4860-46D3-A5AA-CDC111153D68.JPG", orientation: "1242 / 2208" },
