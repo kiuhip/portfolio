@@ -19,9 +19,10 @@ export default function Blog() {
       <Heading marginBottom="l" variant="heading-strong-xl">
         {blog.title}
       </Heading>
-      <Column fillWidth center>
-        <Heading variant="display-strong-s">Coming soon...</Heading>
+      <Column fillWidth gap="xl">
+        <Posts />
       </Column>
+      {newsletter.display && <Mailchimp />}
     </Column>
   );
 }
