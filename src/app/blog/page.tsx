@@ -37,15 +37,6 @@ export default function Blog() {
         }}
       />
       
-      <Column fillWidth gap="xs" horizontal="center">
-        <Heading variant="heading-strong-xl">
-          {blog.title}
-        </Heading>
-        <Text variant="body-default-m" onBackground="neutral-weak">
-          {blog.description}
-        </Text>
-      </Column>
-
       <Column fillWidth gap="32">
         {sortedBlogs.map((post) => (
           <Column 
